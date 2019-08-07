@@ -1,6 +1,8 @@
 package by.etc.somnum.chapter_1;
 import java.util.Scanner;
 
+//Вычислить значения функции на отрезке [а,b] c шагом h: 
+
 public class exe_cycles_2 {
     public static void main(String[] args){
         double a = (-2);
@@ -15,3 +17,4 @@ public class exe_cycles_2 {
         }
     }
 }
+
