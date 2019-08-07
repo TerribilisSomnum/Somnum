@@ -1,5 +1,7 @@
 package by.etc.somnum.chapter_1;
 
+// Найти сумму квадратов первых ста чисел.
+
 public class exe_cycles_3 {
     public static void main(String[] args){
         int number = 100;
@@ -8,3 +10,4 @@ public class exe_cycles_3 {
     System.out.format("%d",sum);
     }
 }
+
