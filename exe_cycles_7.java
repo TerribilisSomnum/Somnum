@@ -1,16 +1,22 @@
 package by.etc.somnum.chapter_1;
 import java.util.Scanner;
 
+// Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа.
+// m и n вводятся с клавиатуры.
+
 public class exe_cycles_7 {
+    
     public static void main(String[] args){
 
         Scanner reader = new Scanner(System.in);
         System.out.print("Введите начало промежутка: ");
         int mBegin = reader.nextInt();
+        
         System.out.print("Введите конец промежутка: ");
         int nEnd = reader.nextInt();
 
            for (int i = mBegin; i <= nEnd; i++){
+               
                System.out.format("%d: ", i);
                for (int y = 2; y < i; y++){
                    if (i % y == 0)
@@ -18,6 +24,6 @@ public class exe_cycles_7 {
                 }
                System.out.format("\n");
            }
-    }
+     }
 }
 
